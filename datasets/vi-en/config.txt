@@ -1,0 +1,13 @@
+# Dataset path:
+VOCAB_PREFIX datasets/vi-en/vocab
+TRAIN_PREFIX datasets/vi-en/train
+DEV_PREFIX datasets/vi-en/tst2012
+TEST_PREFIX datasets/vi-en/tst2013
+# Training parameters:
+NUM_TRAIN_STEPS 12000
+STEPS_PER_STATS 100
+NUM_LYRS 2
+NUM_UNITS 128
+DROPOUT 0.2
+USE_ATTENTION Yes
+ATTENTION_FLAG scaled_luong

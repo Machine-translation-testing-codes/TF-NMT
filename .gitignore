@@ -1,0 +1,4 @@
+*.pyc
+*.en
+*.vi
+model/res/
